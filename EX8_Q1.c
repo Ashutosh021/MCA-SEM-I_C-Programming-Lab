@@ -1,7 +1,3 @@
-// Write a program to input, output of two matrix with the
-// following function addition, subtraction and transpose
-
-
 #include <stdio.h>
 
 void addMatrix(int a[][10], int b[][10], int r1, int c1) {
@@ -33,6 +29,9 @@ void transpose(int a[][10], int r1, int c1) {
 
 int main() {
     int r1, c1, r2, c2;
+    
+    int mat1[10][10];
+    int mat2[10][10];
     printf("\nEnter row for matrix 1 :- ");
     scanf("%d", &r1);
     printf("\nEnter column for matrix 1 :- ");
@@ -41,9 +40,6 @@ int main() {
     scanf("%d", &r2);
     printf("\nEnter column for matrix 2 :- ");
     scanf("%d", &c2);
-
-    int mat1[r1][10];
-    int mat2[r2][10];
 
     printf("Enter Matrix 1 Values :- ");
     for (int i = 0; i < r1; i++) {
@@ -69,7 +65,7 @@ int main() {
 
     printf("\nTranspose of Matrix 1:\n");
     transpose(mat1, r1, c1);
-    printf("\nTranspose of Matrix 1:\n");
+    printf("\nTranspose of Matrix 2:\n");
     transpose(mat2, r2, c2);
 
     return 0;
