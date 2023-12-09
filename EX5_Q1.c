@@ -1,3 +1,20 @@
+// Write a program with the following functions
+//      NCR()
+//      NPR()
+//      to_upper() // to convert given character into
+//      upper case
+//      to_lower() // to convert given character into
+//      lower case
+//      is_upper() // to check given character is in
+//      upper case or not
+//      is_lower() // to check given character is in
+//      lower case or not
+//      is_digit() //to check given character is digit ornot
+//      is_alphabet() //to check given character is
+//      alphabet or not
+
+
+
 #include <stdio.h>
 
 int factorial(int n)
